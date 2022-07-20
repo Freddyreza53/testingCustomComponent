@@ -1,15 +1,37 @@
 {
 	"components": {
-	    "x-853443-my-new-cc": {
+	    "x-853443-my-new-cc-color-picker": {
 	        "innerComponents": [],
 			"uiBuilder": {
 				"associatedTypes": ["global.core", "global.landing-page"],
-				"label": "My Component",
-				"icon": "document-outline",
-				"description": "A description of my component",
+				"label": "ACME color picker",
+				"icon": "fire-outline",
+				"description": "top notch color picker",
 				"category": "primitives"
 			}
-	    }
+	    },
+		"x-853443-my-new-cc": {
+			"innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "ACME colored text",
+				"icon": "gem-outline",
+				"description": "Text awesomeness",
+				"category": "primitives"
+			},
+			"properties": [
+				{
+					"name": "text",
+					"label": "Text",
+					"fieldType": "string"
+				},
+				{
+					"name": "color",
+					"label": "Color",
+					"fieldType": "string"
+				}
+			]
+		}
 	},
 	"scopeName": "x_853443_my_new_cc"
 }
