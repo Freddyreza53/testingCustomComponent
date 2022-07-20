@@ -10,6 +10,38 @@
 				"category": "primitives"
 			}
 	    },
+		"x-853443-my-new-cc-card-test": {
+			"innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "ACME card tester",
+				"icon": "gem-outline",
+				"description": "made to test custom card",
+				"category": "primitives"
+			},
+			"properties": [
+				{
+					"name": "text1",
+					"label": "SysId",
+					"fieldType": "string"
+				},
+				{
+					"name": "text2",
+					"label": "Username",
+					"fieldType": "string"
+				},
+				{
+					"name": "text3",
+					"label": "Company",
+					"fieldType": "string"
+				},
+				{
+					"name": "logo",
+					"label": "Logo",
+					"fieldType": "string"
+				}
+			]
+		},
 		"x-853443-my-new-cc": {
 			"innerComponents": [],
 			"uiBuilder": {
