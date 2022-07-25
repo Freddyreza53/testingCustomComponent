@@ -24,7 +24,10 @@ createCustomElement('x-853443-my-new-cc-card-test', {
 		logo: {}
 	},
 	actionHandlers:{
-		"CARD_TESTER#CLICKED_CARD": ({action}) => {
+		"CARD_TESTER#CLICKED_CARD": ({action, dispatch}) => {
+			dispatch('CARD_CLICKER_EVENT', {
+				'event-payload': action.payload
+			});
 			console.log(action.payload);
 		}
 	}

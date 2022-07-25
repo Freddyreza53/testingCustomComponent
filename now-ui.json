@@ -19,6 +19,14 @@
 				"description": "made to test custom card",
 				"category": "primitives"
 			},
+			"actions": [
+				{
+					"description": "this should fire event on click with payload",
+					"label": "Card Clicked Event Tester",
+					"action": "CARD_CLICKER_EVENT",
+					"payload": []
+				}
+			],
 			"properties": [
 				{
 					"name": "text1",
